@@ -1,0 +1,24 @@
+# Input boundary files (too large for GitHub)
+kml/
+*.kml
+*.kmz
+
+# Build outputs (contain the raw, unprotected data)
+output/
+lookup_data.json
+*.xlsx
+village_hierarchy.csv
+India_Pincode_Vidhan_Sabha.html
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
